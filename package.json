@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat ignition deploy"
+  },
+  "dependencies": {
+    "@eth-optimism/contracts-bedrock": "^0.17.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.10",
+    "@nomicfoundation/hardhat-ignition-viem": "^0.15.10",
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.19",
+    "typescript": "^5.8.2",
+    "viem": "^2.24.1"
+  }
+}
